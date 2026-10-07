@@ -1,4 +1,4 @@
-`#include <stdio.h>
+#include <stdio.h>
 #define INF 999999
 // Tanishq patel PRN 26070521506
 int n, a[15][15], dp[1<<15][15];
@@ -34,3 +34,4 @@ int main() {
 
     printf("%d", tsp(1, 0));
     return 0;
+}
